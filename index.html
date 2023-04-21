@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solicitud de Gestión de Cambio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Solicitud de Gestión de Cambio</h1>
+      <form id="change-form">
+        <label for="proyecto">Proyecto:</label>
+        <input type="text" id="proyecto" name="proyecto" required />
+
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" name="numero" required />
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha"> 
+
+        <label for="solicitante">Solicitante del cambio:</label>
+        <input type="text" id="solicitante" name="solicitante" required />
+
+        <label for="cambio-solicitado">Cambio solicitado:</label>
+        <textarea id="cambio-solicitado" name="cambio-solicitado" required></textarea> 
+
+        <label for="analizador">Analizador del cambio</label>
+        <textarea id="analizador" name="analizador" required></textarea>
+
+        <label for="fecha-analisis">Fecha de analisis:</label>
+        <input type="date" id="fecha-analisis" name="fecha-analisis"> 
+
+        <label for="componenetes-afectados">Componentes afectados:</label>
+        <input type="text" id="componenetes-afectados" name="componenetes-afectados" required />
+        
+        <label for="componenetes-asociados">Componentes asociados:</label>
+        <input type="text" id="componenetes-asociados" name="componenetes-asociados" required />
+
+        <label for="valoracion">Valoración del cambio</label>
+        <textarea id="valoracion" name="valoracion" required></textarea> 
+
+        <label for="prioridad">Prioridad del cambio:</label>
+        <input type="text" id="prioridad" name="prioridad" required />
+
+        <label for="implementacion">Implementación del cambio:</label>
+        <input type="text" id="implementacion" name="implementacion" required />
+
+        <label for="esfuerzo">Esfuerzo estimado:</label>
+        <input type="text" id="esfuerzo" name="esfuerzo" required />
+
+        <label for="fecha-SGA">Fecha para equipo SGA app:</label>
+        <input type="date" id="fecha-SGA" name="fecha-SGA"> 
+
+        <label for="fecha-CCB">Fecha de decisión CCB:</label>
+        <input type="date" id="fecha-CCB" name="fecha-CCB">
+
+        <label for="decision">Decisión:</label>
+        <input type="text" id="esfuerzo" name="esfuerzo" required />
+
+        <label for="implementador">Implementador del cambio:</label> 
+        <input type="text" id="implementador" name="implementador" required />
+
+        <label for="fecha-cambio">Fecha de cambio:</label>
+        <input type="date" id="fecha-cambio" name="fecha-cambio">
+
+        <label for="fecha-envio">Fecha de envio a QA:</label>
+        <input type="date" id="fecha-envio" name="fecha-envio">
+
+        <label for="decision-QA">Decisión de QA:</label> 
+        <input type="text" id="decision-QA" name="decision-QA" required />
+
+        <label for="fecha-envio-CM">Fecha de envio a CM:</label>
+        <input type="date" id="fecha-envio-CM" name="fecha-envio-CM">
+
+        <label for="comentarios">Comentarios</label>
+        <textarea id="comentarios" name="comentarios" required></textarea>
+
+        <button type="submit">Enviar Solicitud</button>
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>Salazar Monsreal Sebastián Ignacio 6IV7</h3>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
